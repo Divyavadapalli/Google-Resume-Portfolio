@@ -152,7 +152,7 @@ export default function Projects() {
                       alt={project.title}
                       className="w-full h-full object-cover"
                       onError={(e) => {
-                        e.target.style.display = 'none';
+                        (e.target as HTMLImageElement).style.display = 'none';
                       }}
                     />
                   </div>
