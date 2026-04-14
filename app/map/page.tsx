@@ -74,12 +74,12 @@ export default function Map() {
           <div className="lg:col-span-3">
             {/* Page Title */}
             <h1 className="text-2xl text-blue-600 mb-3">
-              Where I'm From
+              Where I&apos;m From
             </h1>
 
             {/* Page Subtitle */}
             <p className="text-gray-600 text-sm mb-8">
-              Hyderabad, India - Based in the heart of India's tech hub
+              Hyderabad, India - Based in the heart of India&apos;s tech hub
             </p>
 
             {/* Interactive World Map SVG */}
@@ -167,7 +167,7 @@ export default function Map() {
               <div className="border border-gray-300 rounded-lg p-6 hover:shadow-md transition">
                 <h2 className="text-lg text-gray-900 font-medium mb-3">About Hyderabad</h2>
                 <p className="text-sm text-gray-700 leading-relaxed mb-4">
-                  Hyderabad is one of India's fastest-growing cities and a major IT hub, hosting numerous tech companies and research institutions.
+                  Hyderabad is one of India&apos;s fastest-growing cities and a major IT hub, hosting numerous tech companies and research institutions.
                 </p>
                 <div className="space-y-2 text-sm">
                   <p><span className="font-medium">Population:</span> 6.8+ Million</p>

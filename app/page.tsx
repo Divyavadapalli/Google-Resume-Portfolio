@@ -101,7 +101,7 @@ export default function Home() {
               Map
             </Link>
           </nav>
-        </div>
+        </div>  
       </header>
 
       {/* Main Content */}
@@ -388,16 +388,16 @@ export default function Home() {
                 <h3 className="text-lg text-gray-900 mb-6">Related Search:</h3>
                 <div className="grid grid-cols-2 gap-4">
                   <Link href="/skills" className="bg-gray-100 rounded-full px-4 py-3 hover:bg-gray-200 text-sm text-gray-700 flex items-center gap-2">
-                    <span>Divya's Skills</span>
+                    <span>Divya&apos;s Skills</span>
                   </Link>
                   <Link href="/projects" className="bg-gray-100 rounded-full px-4 py-3 hover:bg-gray-200 text-sm text-gray-700 flex items-center gap-2">
-                    <span>Divya's Projects</span>
+                    <span>Divya&apos;s Projects</span>
                   </Link>
                   <Link href="/contact" className="bg-gray-100 rounded-full px-4 py-3 hover:bg-gray-200 text-sm text-gray-700 flex items-center gap-2">
                     <span>Contact Divya</span>
                   </Link>
                   <Link href="/" className="bg-gray-100 rounded-full px-4 py-3 hover:bg-gray-200 text-sm text-gray-700 flex items-center gap-2">
-                    <span>Divya's Location</span>
+                    <span>Divya&apos;s Location</span>
                   </Link>
                 </div>
               </div>

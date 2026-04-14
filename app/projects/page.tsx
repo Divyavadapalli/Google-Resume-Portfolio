@@ -133,7 +133,7 @@ export default function Projects() {
           <div className="lg:col-span-3">
             {/* Page Title */}
             <h1 className="text-2xl text-blue-600 mb-3">
-              Divya's Projects
+              Divya&apos;s Projects
             </h1>
 
             {/* Page Subtitle */}
