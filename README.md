@@ -2,14 +2,6 @@
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Inspired by Google's design aesthetic with a professional look and feel.
 
-## Features
-
-- 🎨 **Modern Design**: Google search-inspired interface
-- 📱 **Fully Responsive**: Works on all device sizes
-- 🌙 **Dark Mode**: Toggle between light and dark themes
-- ⚡ **Fast & Optimized**: Built with Next.js for optimal performance
-- 🎯 **Multiple Sections**: Home, Skills, Projects, and Contact pages
-- 📧 **Contact Form**: Direct messaging capability
 
 ## Getting Started
 
@@ -64,19 +56,6 @@ To personalize the portfolio:
 4. **Modify colors** in `tailwind.config.ts` and `app/globals.css`
 5. **Add images** to the `public` folder and update image references
 
-## Deployment
-
-Deploy to Vercel (recommended):
-
-1. Push your code to GitHub
-2. Connect to [Vercel](https://vercel.com)
-3. Vercel will automatically deploy on every push
-
-Or deploy to other platforms:
-- Netlify
-- AWS Amplify
-- Docker container
-
 ## Technologies Used
 
 - **Next.js 15** - React framework
@@ -90,7 +69,7 @@ This project is open source and available under the MIT License.
 
 ## Author
 
-Your Name - 2026
+DIVYA SRI VADAPALLI
 
 ---
 
