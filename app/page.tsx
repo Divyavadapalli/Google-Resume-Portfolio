@@ -318,18 +318,18 @@ export default function Home() {
               {/* Achievement 1 */}
               <div className="mb-6">
                 <h3 className="text-base text-gray-900 font-medium">Stanford University Code in Place</h3>
-                <p className="text-sm text-gray-600 mb-2">Completed CS106A Programming Course '24</p>
+                <p className="text-sm text-gray-600 mb-2">Completed CS106A Programming Course &apos;24</p>
               </div>
 
               {/* Achievement 2 */}
               <div className="mb-6">
-                <h3 className="text-base text-gray-900 font-medium">McKinsey Forward Program '25</h3>
+                <h3 className="text-base text-gray-900 font-medium">McKinsey Forward Program &apos;25</h3>
                 <p className="text-sm text-gray-600 mb-2">4-week program in Programming and Logic Building</p>
               </div>
 
               {/* Achievement 3 */}
               <div className="mb-6">
-                <h3 className="text-base text-gray-900 font-medium">National University of Singapore (NUS) Internship '25</h3>
+                <h3 className="text-base text-gray-900 font-medium">National University of Singapore (NUS) Internship &apos;25</h3>
                 <p className="text-sm text-gray-600 mb-2">Selected for Research AI Intern position</p>
               </div>
 
