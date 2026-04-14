@@ -1,6 +1,8 @@
 import type { PlatformResponse, PlatformStats } from '@/lib/types/platforms';
 import { CODING_PLATFORMS } from '@/lib/config/codingPlatforms';
 
+export const dynamic = 'force-dynamic';
+
 const CODECHEF_USERNAME = CODING_PLATFORMS.codechef.username;
 
 // CodeChef doesn't have an official public JSON API

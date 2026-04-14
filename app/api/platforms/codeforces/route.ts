@@ -1,6 +1,8 @@
 import type { PlatformResponse, PlatformStats } from '@/lib/types/platforms';
 import { CODING_PLATFORMS } from '@/lib/config/codingPlatforms';
 
+export const dynamic = 'force-dynamic';
+
 const CODEFORCES_USERNAME = CODING_PLATFORMS.codeforces.username;
 
 interface CodeforcesUserInfo {

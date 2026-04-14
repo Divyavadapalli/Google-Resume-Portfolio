@@ -1,6 +1,8 @@
 import type { PlatformResponse, PlatformStats } from '@/lib/types/platforms';
 import { CODING_PLATFORMS } from '@/lib/config/codingPlatforms';
 
+export const dynamic = 'force-dynamic';
+
 const LEETCODE_USERNAME = CODING_PLATFORMS.leetcode.username;
 
 async function fetchLeetCodeStats(): Promise<PlatformStats | null> {
