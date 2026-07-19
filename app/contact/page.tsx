@@ -56,7 +56,7 @@ export default function Contact() {
       <main className="max-w-4xl mx-auto px-4">
         <h1 className="text-2xl mb-4">Get in Touch</h1>
         <p className="text-base text-gray-600 mb-12">
-          Feel free to reach out for collaborations or just a friendly hello!
+          Open to backend engineering, AI/ML, and student collaboration opportunities.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
@@ -134,6 +134,9 @@ export default function Contact() {
                   <a href="https://github.com/Divyavadapalli" target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:underline">
                     GitHub Profile
                   </a>
+                  <Link href="/" className="block text-blue-600 hover:underline">
+                    Portfolio
+                  </Link>
                 </div>
               </div>
               <div className="border border-gray-300 rounded p-4">

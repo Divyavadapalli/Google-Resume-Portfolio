@@ -79,7 +79,7 @@ export default function Map() {
 
             {/* Page Subtitle */}
             <p className="text-gray-600 text-sm mb-8">
-              Hyderabad, India - Based in the heart of India&apos;s tech hub
+              Hyderabad, India - based in the heart of the city&apos;s tech ecosystem
             </p>
 
             {/* Interactive World Map SVG */}
@@ -185,18 +185,32 @@ export default function Map() {
                   <div className="text-2xl">🎓</div>
                   <div>
                     <p className="font-medium text-gray-900">Koneru Lakshmaiah University</p>
-                    <p className="text-sm text-gray-600">Electronics and Communication Engineering</p>
+                    <p className="text-sm text-gray-600">B.Tech in Electronics and Communication (Honors) | CGPA: 8.6 | Expected July 2027</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="text-2xl">💼</div>
+                  <div>
+                    <p className="font-medium text-gray-900">Avantaro Technologies</p>
+                    <p className="text-sm text-gray-600">Software Engineering (Founder&apos;s) Intern - Hyderabad, India</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="text-2xl">🔬</div>
+                  <div>
+                    <p className="font-medium text-gray-900">Stanford University - Code in Place</p>
+                    <p className="text-sm text-gray-600">Session Leader (Student-Teacher) | Apr - Jun 2026</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="text-2xl">🧪</div>
                   <div>
                     <p className="font-medium text-gray-900">Taras Systems and Solutions</p>
                     <p className="text-sm text-gray-600">AI/ML Intern - Hyderabad, India</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="text-2xl">🔬</div>
+                  <div className="text-2xl">🔍</div>
                   <div>
                     <p className="font-medium text-gray-900">National University of Singapore</p>
                     <p className="text-sm text-gray-600">Research AI Intern (2025)</p>
@@ -241,7 +255,7 @@ export default function Map() {
               {/* Info Box */}
               <div className="mt-6 bg-blue-50 border border-blue-200 rounded p-4">
                 <p className="text-xs text-blue-900 text-center">
-                  📍 Based in Hyderabad, India. Open to opportunities worldwide!
+                  📍 Based in Hyderabad, India. Open to backend engineering and AI/ML opportunities worldwide.
                 </p>
               </div>
             </div>

@@ -6,23 +6,23 @@ export default function Skills() {
   const skillCategories = [
     {
       category: 'Languages',
-      skills: ['Python', 'Java', 'C', 'PL-SQL', 'JavaScript']
+      skills: ['Java', 'Python', 'C', 'PL-SQL', 'JavaScript']
     },
     {
       category: 'Frameworks & Libraries',
-      skills: ['PyTorch', 'TensorFlow', 'Flask', 'FastAPI', 'Pandas', 'NumPy', 'Scikit-learn', 'React.js']
+      skills: ['Spring Boot', 'Spring Security', 'Hibernate', 'JPA', 'REST APIs', 'PyTorch', 'TensorFlow', 'Flask', 'FastAPI', 'Pandas', 'NumPy', 'Scikit-learn', 'React.js', 'Hugging Face']
     },
     {
       category: 'AI/ML & Data',
-      skills: ['Machine Learning', 'Deep Learning', 'NLP', 'Computer Vision', 'Graph Neural Networks', 'Time Series Analysis']
+      skills: ['Machine Learning', 'Deep Learning', 'NLP', 'Computer Vision', 'Graph Neural Networks', 'Time Series Analysis', 'LLM Fine-tuning', 'Transformer Architecture', 'MLOps', 'Data Analysis', 'Predictive Modeling']
     },
     {
       category: 'Tools & Platforms',
-      skills: ['Git', 'GitHub', 'Docker', 'Linux', 'MySQL', 'Neo4j', 'VS Code']
+      skills: ['Git', 'GitHub', 'Docker', 'Linux', 'MySQL', 'PostgreSQL', 'Neo4j', 'VS Code', 'Flyway', 'Railway', 'CI/CD']
     },
     {
       category: 'Specialized Skills',
-      skills: ['LLM Fine-tuning', 'Transformer Architecture', 'MLOps', 'Data Analysis', 'Predictive Modeling', 'REST APIs']
+      skills: ['Backend Engineering', 'Data Structures & Algorithms', 'System Design Basics', 'REST APIs']
     }
   ];
 
@@ -126,7 +126,7 @@ export default function Skills() {
 
             {/* Page Subtitle */}
             <p className="text-gray-600 text-sm mb-8">
-              Technical Skills and Proficiency
+              Backend engineering, machine learning, and deployment tools
             </p>
 
             {/* Skills Grid */}
@@ -152,7 +152,7 @@ export default function Skills() {
               <div className="space-y-6">
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span className="text-base text-gray-900">Python & Machine Learning</span>
+                    <span className="text-base text-gray-900">Python, Machine Learning & NLP</span>
                     <span className="text-sm text-gray-600">Advanced</span>
                   </div>
                   <div className="w-full bg-gray-300 rounded h-2">
@@ -161,7 +161,7 @@ export default function Skills() {
                 </div>
                 <div>
                   <div className="flex justify-between mb-2">
-                    <span className="text-base text-gray-900">Java & C Programming</span>
+                    <span className="text-base text-gray-900">Java, Spring Boot & PostgreSQL</span>
                     <span className="text-sm text-gray-600">Advanced</span>
                   </div>
                   <div className="w-full bg-gray-300 rounded h-2">

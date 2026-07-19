@@ -9,11 +9,11 @@ export default function Projects() {
       title: 'NanoGPT Story Model',
       timeline: 'Aug 2025 – Feb 2026',
       category: 'AI/ML - NLP',
-      description: 'Built and trained a GPT-2 style language model that generates coherent short stories from text prompts using a transformer architecture.',
+      description: 'Designed and implemented a GPT-2 style transformer architecture in PyTorch for natural language generation using multi-head self-attention and positional encoding.',
       highlights: [
-        'Implemented transformer architecture for NLP tasks, training pipeline using PyTorch and Hugging Face datasets',
-        'Generated coherent, context-aware stories from custom prompts, demonstrating end-to-end NLP system performance',
-        'Fine-tuned model parameters for optimal story generation quality'
+        'Built an end-to-end NLP training pipeline using Hugging Face datasets including tokenization, batching, optimizer scheduling and loss monitoring',
+        'Developed and evaluated transformer-based language generation models producing coherent long-form text',
+        'Implemented multi-head self-attention and positional encoding for text generation'
       ],
       technologies: ['PyTorch', 'Transformers', 'Hugging Face', 'Python'],
       image: 'https://images.unsplash.com/photo-1634815131414-9a0b3f842e1d?w=600&h=300&fit=crop'
@@ -51,11 +51,11 @@ export default function Projects() {
       title: '3D Structure Prediction from Protein Sequences',
       timeline: 'Jun 2024 - Nov 2024',
       category: 'AI/ML Research',
-      description: 'Built a protein aggregation prediction pipeline from amino acid sequences using AI/ML with identified aggregation-prone regions linked to protein misfolding.',
+      description: 'Developed a machine learning pipeline for protein structure prediction using Python, reducing research costs by approximately 70% compared with traditional computational workflows.',
       highlights: [
-        'Developed predictive pipeline for identifying aggregation-prone regions in protein sequences',
-        'Linked predicted regions to protein misfolding mechanisms using ML classification',
-        'Utilized Kaggle and PDB datasets for comprehensive training and validation'
+        'Optimized feature extraction and inference pipelines to reduce structural analysis time from weeks to hours',
+        'Improved research workflow efficiency for biological structure analysis',
+        'Applied machine learning to sequence-based protein structure prediction'
       ],
       technologies: ['Python', 'Random Forest', 'SVM', 'Kaggle', 'PDB Datasets', 'Data Analysis'],
       image: 'https://images.unsplash.com/photo-1576863259235-26dcff1dd4d7?w=600&h=300&fit=crop'
@@ -138,7 +138,7 @@ export default function Projects() {
 
             {/* Page Subtitle */}
             <p className="text-gray-600 text-sm mb-8">
-              AI/ML and Full-Stack Projects
+              Selected software, ML, and research projects
             </p>
 
             {/* Projects Grid */}

@@ -116,17 +116,51 @@ export default function Home() {
 
             {/* Main Subtitle */}
             <p className="text-gray-600 text-sm mb-6">
-              AI/ML Oriented Developer
+              Software Engineering & AI/ML Developer
             </p>
 
             {/* Bio Description */}
             <p className="text-gray-700 text-sm leading-relaxed mb-8">
-              AI/ML-focused Electronics and Communication undergraduate with hands-on experience building real-world systems across computer vision, NLP, and predictive modeling. Strong in developing end-to-end solutions—from training transformer models to deploying intelligent, data-driven applications with measurable performance impact.
+              B.Tech Electronics and Communication (Honors) student at Koneru Lakshmaiah University with hands-on experience in Java, Spring Boot, PostgreSQL, Python, and PyTorch. Focused on production software engineering, NLP, and practical machine learning systems.
             </p>
 
             {/* EXPERIENCE Section */}
             <section className="mb-10">
               <h2 className="text-lg text-blue-600 mb-6">EXPERIENCE</h2>
+
+              {/* Experience 0 */}
+              <div className="mb-8">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-base text-gray-900">Software Engineering (Founder&apos;s) Intern</h3>
+                    <p className="text-sm text-gray-600">Avantaro Technologies</p>
+                  </div>
+                  <span className="text-gray-600 text-sm whitespace-nowrap">Feb 2026 – Present</span>
+                </div>
+                <p className="text-sm text-gray-600 mb-2">Hyderabad, India</p>
+                <ul className="text-gray-700 text-sm space-y-1 ml-4">
+                  <li>● Designed and developed production-grade software using Java, Spring Boot, Hibernate, PostgreSQL and Flyway, improving processing throughput by 30%</li>
+                  <li>● Implemented distributed locking and asynchronous event-driven workflows for concurrent data processing, improving reliability and scalability</li>
+                  <li>● Developed a rule-based compliance engine using Java and Spring Boot to automate business policy validation and improve data quality</li>
+                  <li>● Resolved production issues involving JVM startup failures, PostgreSQL latency, OAuth authentication callbacks and Railway deployments while maintaining 99.9% service availability</li>
+                </ul>
+              </div>
+
+              {/* Experience 0b */}
+              <div className="mb-8">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-base text-gray-900">Session Leader (Student-Teacher)</h3>
+                    <p className="text-sm text-gray-600">Stanford University – Code in Place</p>
+                  </div>
+                  <span className="text-gray-600 text-sm whitespace-nowrap">Apr – Jun 2026</span>
+                </div>
+                <p className="text-sm text-gray-600 mb-2">Remote</p>
+                <ul className="text-gray-700 text-sm space-y-1 ml-4">
+                  <li>● Collaborated with an international team while mentoring 15 students through live Python problem-solving sessions</li>
+                  <li>● Recognized as a top-performing student and promoted to mentor, demonstrating technical communication and teamwork</li>
+                </ul>
+              </div>
 
               {/* Experience 1 */}
               <div className="mb-8">
@@ -160,6 +194,25 @@ export default function Home() {
                   <li>● Implemented using OpenCV, MediaPipe, and Autopy for hand tracking, gesture recognition, and cursor control</li>
                   <li>● Achieved 93% gesture detection accuracy, delivering smooth and responsive real-time interaction</li>
                 </ul>
+              </div>
+            </section>
+
+            {/* EDUCATION Section */}
+            <section className="mb-10">
+              <h2 className="text-lg text-blue-600 mb-6">EDUCATION</h2>
+
+              <div className="mb-8">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-base text-gray-900">Koneru Lakshmaiah University</h3>
+                    <p className="text-sm text-gray-600">B.Tech in Electronics and Communication (Honors)</p>
+                  </div>
+                  <span className="text-gray-600 text-sm whitespace-nowrap">Expected July 2027</span>
+                </div>
+                <p className="text-sm text-gray-600 mb-2">Hyderabad, India | CGPA: 8.6</p>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Concepts: Data Structures & Algorithms, Object Oriented Programming, Database Management Systems, Computer Network, AI/ML
+                </p>
               </div>
             </section>
 
@@ -210,7 +263,7 @@ export default function Home() {
                   <span className="text-gray-600 text-sm whitespace-nowrap">Aug 2025 – Feb 2026</span>
                 </div>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Built and trained a GPT-2 style language model that generates coherent short stories from text prompts using a transformer architecture. Implemented transformer architecture for NLP tasks, training pipeline using PyTorch and Hugging Face datasets, generating coherent, context-aware stories from custom prompts.
+                  Designed and implemented a GPT-2 style transformer architecture in PyTorch for natural language generation using multi-head self-attention and positional encoding. Built an end-to-end NLP training pipeline using Hugging Face datasets including tokenization, batching, optimizer scheduling and loss monitoring.
                 </p>
               </div>
 
@@ -252,7 +305,7 @@ export default function Home() {
                   <span className="text-gray-600 text-sm whitespace-nowrap">Jun 2024 - Nov 2024</span>
                 </div>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Built a protein aggregation prediction pipeline from amino acid sequences using AI/ML with identified aggregation-prone regions linked to protein misfolding. Technologies used: Python, Random Forest, SVM, Kaggle & PDB datasets, Data Analysis
+                  Developed a machine learning pipeline for protein structure prediction using Python, reducing research costs by approximately 70% compared with traditional computational workflows. Optimized feature extraction and inference pipelines to reduce structural analysis time from weeks to hours for biological structure analysis workflows.
                 </p>
               </div>
 
@@ -266,7 +319,35 @@ export default function Home() {
 
             {/* HACKATHONS Section */}
             <section className="mb-10">
-              <h2 className="text-lg text-blue-600 mb-6">HACKATHONS</h2>
+              <h2 className="text-lg text-blue-600 mb-6">HACKATHONS / WORKSHOPS</h2>
+
+              {/* Hackathon / Workshop 0 */}
+              <div className="mb-8">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-base text-gray-900">Taras Systems and Solutions Workshop – Top 1%</h3>
+                    <p className="text-sm text-gray-600">Workshop / Applied AI</p>
+                  </div>
+                  <span className="text-gray-600 text-sm whitespace-nowrap">Jan - Feb 2026</span>
+                </div>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Built a real-time hand gesture-controlled virtual mouse system enabling touchless cursor control and interaction.
+                </p>
+              </div>
+
+              {/* Hackathon / Workshop 0b */}
+              <div className="mb-8">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="text-base text-gray-900">Hack with AI – Semi-Finalist</h3>
+                    <p className="text-sm text-gray-600">Hackathon Project</p>
+                  </div>
+                  <span className="text-gray-600 text-sm whitespace-nowrap">2026</span>
+                </div>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Built a GST reconciliation engine using Neo4j knowledge graphs and Python to automate invoice matching and financial reconciliation workflows.
+                </p>
+              </div>
 
               {/* Hackathon 1 */}
               <div className="mb-8">
@@ -351,6 +432,27 @@ export default function Home() {
                   <li>● Tennis Player</li>
                 </ul>
               </div>
+
+              {/* Achievement 6 */}
+              <div className="mb-6">
+                <h3 className="text-base text-gray-900 font-medium">700+ Core DSA Problems</h3>
+                <p className="text-sm text-gray-600 mb-2">Solved across LeetCode and CodeChef with a 1490+ rating</p>
+              </div>
+
+              {/* Achievement 7 */}
+              <div className="mb-6">
+                <h3 className="text-base text-gray-900 font-medium">President of Council Club</h3>
+                <p className="text-sm text-gray-600 mb-2">Member of ACM & Vice Chair, DISEC (MUN) with experience supporting 400+ delegates over 3 years</p>
+              </div>
+
+              {/* Achievement 8 */}
+              <div className="mb-6">
+                <h3 className="text-base text-gray-900 font-medium">Certifications</h3>
+                <ul className="text-gray-700 text-sm space-y-1 ml-4">
+                  <li>● Microsoft Azure AI Fundamentals (AI-900)</li>
+                  <li>● Cisco Certified Network Associate (CCNA)</li>
+                </ul>
+              </div>
             </section>
 
             {/* People Also Ask Section */}
@@ -359,25 +461,25 @@ export default function Home() {
               <div className="space-y-3">
                 <PeopleAlsoAskItem 
                   question="What skills does Divya have?"
-                  answer="Python, JavaScript, Java, C, SQL, PyTorch, TensorFlow, Flask, FastAPI, LangChain, Pandas, NumPy, Scikit-learn, OpenCV, MediaPipe, Git, GitHub, Docker, Neo4j"
+                  answer="Java, Python, C, Spring Boot, Spring Security, Hibernate, JPA, REST APIs, SQL, PostgreSQL, Git, Docker, Flyway, Railway, Linux, CI/CD, PyTorch, Hugging Face, NumPy, and Pandas"
                   link="/skills"
                   linkText="View More Skills"
                 />
                 <PeopleAlsoAskItem 
-                  question="What services does Divya provide?"
-                  answer="AI/ML model development, NLP solutions, computer vision systems, data analytics, predictive modeling, full-stack application development, research and prototype development"
+                  question="What does Divya build?"
+                  answer="Production backend systems, NLP models, machine learning pipelines, and automation tools using Java, Spring Boot, Python, and PyTorch"
                   link="/"
                   linkText="View More"
                 />
                 <PeopleAlsoAskItem 
-                  question="Is Divya frontend or backend developer?"
-                  answer="Divya specializes in full-stack development with strong expertise in both frontend (React.js, JavaScript) and backend (Python, Flask, FastAPI) technologies, with a primary focus on AI/ML integration and data-driven application development."
+                  question="What experience does Divya have?"
+                  answer="Software Engineering (Founder&apos;s) Intern at Avantaro Technologies and Session Leader at Stanford University Code in Place, with project work in NLP and machine learning"
                   link="/"
                   linkText="View More"
                 />
                 <PeopleAlsoAskItem 
-                  question="How much experience does Divya have?"
-                  answer="Divya is an undergraduate student with hands-on experience from multiple internships, hackathons, and research projects in AI/ML, web development, and systems engineering. She has practical experience in building end-to-end systems and participating in competitive challenges."
+                  question="What are Divya's achievements?"
+                  answer="700+ DSA problems solved across LeetCode and CodeChef, President of Council Club, Member of ACM, Vice Chair DISEC, and certifications in Azure AI Fundamentals and CCNA"
                   link="/"
                   linkText="View More"
                 />
@@ -418,7 +520,7 @@ export default function Home() {
 
               {/* Bio Text */}
               <p className="text-sm text-gray-700 text-center mb-6 leading-relaxed">
-                Electronics and Communication undergraduate at Koneru Lakshmaiah University (graduating July 2027). Passionate about AI/ML with hands-on experience building intelligent systems. Focused on developing real-world applications across NLP, computer vision, and predictive modeling.
+                B.Tech Electronics and Communication (Honors) student at Koneru Lakshmaiah University, graduating July 2027 with a CGPA of 8.6. Focused on backend engineering, NLP, and practical machine learning systems.
               </p>
 
               {/* Contact Links */}
@@ -427,7 +529,7 @@ export default function Home() {
                   <span>vadapallidivyasrii@gmail.com</span>
                 </a>
                 <a href="tel:+918978363616" className="flex items-center gap-3 text-gray-700 hover:text-blue-600 text-sm">
-                  <span>+91 8*****3616</span>
+                  <span>+91 8978363616</span>
                 </a>
                 <a href="https://www.linkedin.com/in/divya-sri-v-3b5201299/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-blue-600 hover:underline text-sm">
                   <span>LinkedIn Profile</span>
@@ -436,7 +538,6 @@ export default function Home() {
                   <span>Github Profile</span>
                 </a>
                 <Link href="/projects" className="flex items-center gap-3 text-blue-600 hover:underline text-sm">
-
                   <span>Portfolio Projects</span>
                 </Link>
               </div>
