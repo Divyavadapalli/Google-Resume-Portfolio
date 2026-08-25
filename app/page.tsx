@@ -139,10 +139,10 @@ export default function Home() {
                 </div>
                 <p className="text-sm text-gray-600 mb-2">Hyderabad, India</p>
                 <ul className="text-gray-700 text-sm space-y-1 ml-4">
-                  <li>● Designed and developed production-grade software using Java, Spring Boot, Hibernate, PostgreSQL and Flyway, improving processing throughput by 30%</li>
-                  <li>● Implemented distributed locking and asynchronous event-driven workflows for concurrent data processing, improving reliability and scalability</li>
-                  <li>● Developed a rule-based compliance engine using Java and Spring Boot to automate business policy validation and improve data quality</li>
-                  <li>● Resolved production issues involving JVM startup failures, PostgreSQL latency, OAuth authentication callbacks and Railway deployments while maintaining 99.9% service availability</li>
+                  <li>● Redesigned a legacy Java/Spring Boot compliance engine into a 12-policy, database-driven architecture, expanding coverage to 250+ policy-specific keywords and 50+ exception rules through modular matcher configuration for context-aware violation detection</li>
+                  <li>● Migrated the PostgreSQL data layer from 4 to 9 tables through 5 versioned Flyway migrations, introducing structured policies, matchers, exceptions and violations while maintaining 100% test pass rate and zero breaking changes across the existing scanning pipeline</li>
+                  <li>● Eliminated a potential N+1 query bottleneck in exception-rule loading, reducing database access to 3 queries for 250+ keywords through bulk retrieval and in-memory grouping, with &lt;1 ms exception-filtering overhead per match</li>
+                  <li>● Built an automated Java regression-testing framework spanning 108+ tests and 150+ golden-dataset listings, including 13 targeted false-positive/false-negative tests to systematically validate detection behavior and prevent regressions</li>
                 </ul>
               </div>
 
